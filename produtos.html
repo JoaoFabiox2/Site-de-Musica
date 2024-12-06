@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sakura Groove - Detalhes do Instrumento">
+    <title>Detalhes do Instrumento</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+        }
+        .navbar {
+            background-color: #343a40;
+        }
+        .navbar-brand, .navbar-nav .nav-link {
+            color: #fff !important;
+        }
+        .gallery img {
+            cursor: pointer;
+            width: 100%;
+            margin-bottom: 10px;
+        }
+        .modal img {
+            width: 100%;
+        }
+        footer {
+            background-color: #343a40;
+            color: #fff;
+            padding: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="idex.html">Sakura Groove</a>
+        </div>
+    </nav>
+
+    
+    <section class="container my-5">
+        <div class="row">
+            <div class="col-md-6">
+                <h2>Guitarra Fender Stratocaster</h2>
+                <p>Preço: <strong>R$ 3.499,00</strong></p>
+                <p>Disponível em: Verde e Azul</p>
+                <p>Acessórios inclusos: Capa, correia e cabo</p>
+                <button class="btn btn-primary mb-4">Adicionar ao Carrinho</button>
+                <p>
+                    A Fender Stratocaster é uma guitarra lendária com timbre clássico,
+                    design ergonômico e construção robusta. Ideal para iniciantes e músicos experientes.
+                </p>
+            </div>
+            <div class="col-md-6">
+                
+                <div class="gallery">
+                    <img src="legend (1).jpg" alt="Imagem do Produto" data-bs-toggle="modal" data-bs-target="#galleryModal">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <div class="modal fade" id="galleryModal" tabindex="-1" aria-labelledby="galleryModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <img src="legend (1).jpg" alt="Imagem Ampliada">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    <footer class="text-center">
+        <p>&copy; 2024 Sakura Groove - Todos os direitos reservados ao João >:(</p>
+    </footer>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
